@@ -1,0 +1,14 @@
+{
+  "nbr_targets": 8,
+  "nbr_agents": 8,
+  "max_cycles": 1000,
+  "max_target_speed": 1,
+  "max_agent_speed": 2,
+  "map_size": 50,
+  "obs_range": 5,
+  "com_range": 10,
+  "safety_range": 0.5,
+  "dangerous_range": 0.25,
+  "det_range": 7,
+  "num_samples": 2
+}
