@@ -190,7 +190,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     params_default = "params_pbt_FFRL.list"
-    name_default = "pbt_tuner2"
+    name_default = "pbt_tuner"
     num_workers = 8  # 63
     model = "[64, 64]"
     reward = 'ind' # or 'col'

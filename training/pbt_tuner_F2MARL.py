@@ -286,11 +286,11 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     params_default = "params.list"
-    name_default = "pbt_debug_global_global1"
+    name_default = "pbt_local_global"
     samples = 1
-    num_workers = 3  # 63
-    reward = 'glo'  # or 'ind', 'col' or 'glo'
-    model = 'global_global'  # or 'light', 'normal', 'light_vf_share', 'complex'
+    num_workers = 3
+    reward = 'glo'  # => 'ind', 'glo'
+    model = 'local_global'  # => 'local_local', 'local_global', 'global_global'
     parser.add_argument("-p", "--params", type=str, default=params_default)
     parser.add_argument("-n", "--name", type=str, default=name_default)
     parser.add_argument("-s", "--samples", type=int, default=samples)
